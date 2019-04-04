@@ -23,7 +23,16 @@ def saysomething(message):
         "I have a bad feeling about this.",
         "That's no moon. It's a space station",
         "You can't win, Darth. If you strike me down, I shall become more powerful than you could possibly imagine.",
-        "Use the Force, Luke."
+        "Use the Force, Luke.",
+        "So uncivilized.",
+        "If you strike me down, I shall become more powerful than you can possibly imagine.",
+        "I have the high ground.",
+        "Hello there!",
+        "You were the Chosen One!",
+        "Who is more foolish? The fool or the fool who follows him?",
+        "Remember… the Force will be with you. Always.",
+        "I have failed you, Anakin. I have failed you.",
+        "Be mindful of your thoughts, Anakin, they betray you."
     ]
     message.reply(random.choice(quotes))
 
