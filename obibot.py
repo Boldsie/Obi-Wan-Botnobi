@@ -37,12 +37,12 @@ def shotfirst(message):
 
 @listen_to('Star Wars', re.IGNORECASE)
 def usetheforce(message):
-    today = datetime.date.today()
-    release = datetime.date(2015, 12, 16)
-    days = release - today
-    delta = timedelta()
-    message.reply(
-        ':thumbsup: Only {0} days until *Star Wars - The Force Awakens* premier!'.format(days.days))
+	today = datetime.date.today()
+	release = datetime.date(2019, 12, 20)
+	days = release - today
+	delta = timedelta()
+	message.reply(
+		':thumbsup: Only {0} days until *Star Wars: Episode IX!'.format(days.days))
 
 
 @respond_to('I love you', re.IGNORECASE)
