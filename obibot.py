@@ -25,7 +25,6 @@ def saysomething(message):
         "You can't win, Darth. If you strike me down, I shall become more powerful than you could possibly imagine.",
         "Use the Force, Luke.",
         "So uncivilized.",
-        "If you strike me down, I shall become more powerful than you can possibly imagine.",
         "I have the high ground.",
         "Hello there!",
         "You were the Chosen One!",
@@ -51,7 +50,7 @@ def usetheforce(message):
     days = release - today
     delta = timedelta()
     message.reply(
-        ':thumbsup: Only {0} days until *Star Wars: Episode IX!'.format(days.days))
+        ':thumbsup: Only {0} days until *Star Wars Episode IX: The Rise of Skywalker!'.format(days.days))
 
 
 @respond_to('I love you', re.IGNORECASE)
