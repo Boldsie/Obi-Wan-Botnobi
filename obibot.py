@@ -23,7 +23,15 @@ def saysomething(message):
         "I have a bad feeling about this.",
         "That's no moon. It's a space station",
         "You can't win, Darth. If you strike me down, I shall become more powerful than you could possibly imagine.",
-        "Use the Force, Luke."
+        "Use the Force, Luke.",
+        "So uncivilized.",
+        "I have the high ground.",
+        "Hello there!",
+        "You were the Chosen One!",
+        "Who is more foolish? The fool or the fool who follows him?",
+        "Remember… the Force will be with you. Always.",
+        "I have failed you, Anakin. I have failed you.",
+        "Be mindful of your thoughts, Anakin, they betray you."
     ]
     message.reply(random.choice(quotes))
 
@@ -38,11 +46,11 @@ def shotfirst(message):
 @listen_to('Star Wars', re.IGNORECASE)
 def usetheforce(message):
     today = datetime.date.today()
-    release = datetime.date(2015, 12, 16)
+    release = datetime.date(2019, 12, 20)
     days = release - today
     delta = timedelta()
     message.reply(
-        ':thumbsup: Only {0} days until *Star Wars - The Force Awakens* premier!'.format(days.days))
+        ':thumbsup: Only {0} days until *Star Wars Episode IX: The Rise of Skywalker!'.format(days.days))
 
 
 @respond_to('I love you', re.IGNORECASE)
